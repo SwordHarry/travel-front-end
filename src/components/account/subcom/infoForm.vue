@@ -34,20 +34,20 @@
             <Input type="date" placeholder="生日" v-model="accountBirth"/>
             </Col>
           </Row>
-          <Row class="account-group">
-            <Col span="1" offset="6">
-            <label>家乡：</label>
-            </Col>
-            <Col span="4">
-            <Cascader :data="address" v-model="account.home"></Cascader>
-            </Col>
-            <Col span="1" offset="3">
-            <label>现住地：</label>
-            </Col>
-            <Col span="4">
-            <Cascader :data="address" v-model="account.live"></Cascader>
-            </Col>
-          </Row>
+          <!--<Row class="account-group">-->
+            <!--<Col span="1" offset="6">-->
+            <!--<label>家乡：</label>-->
+            <!--</Col>-->
+            <!--<Col span="4">-->
+            <!--<Cascader :data="address" v-model="account.home"></Cascader>-->
+            <!--</Col>-->
+            <!--<Col span="1" offset="3">-->
+            <!--<label>现住地：</label>-->
+            <!--</Col>-->
+            <!--<Col span="4">-->
+            <!--<Cascader :data="address" v-model="account.live"></Cascader>-->
+            <!--</Col>-->
+          <!--</Row>-->
           <Row class="account-group">
             <Col span="1" offset="6">
             <label>描述：</label>
